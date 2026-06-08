@@ -8,3 +8,6 @@ for i in range(n):
 print(nums)
 for i, name in enumerate(nums):
      print(f"{i+1}. {name}")"""
+
+"""odds = [i for i in range(1, 21) if i % 2 == 1]
+print(odds)"""
