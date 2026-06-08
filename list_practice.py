@@ -11,3 +11,13 @@ for i, name in enumerate(nums):
 
 """odds = [i for i in range(1, 21) if i % 2 == 1]
 print(odds)"""
+
+"""def remove_duplicates(lst):
+    result = []
+    for item in lst:
+        if item not in result:
+            result.append(item)
+    return result
+lst = [1, 2, 2, 3, 4, 4, 5]
+result = remove_duplicates(lst)
+print(result)"""
