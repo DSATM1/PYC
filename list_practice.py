@@ -92,6 +92,8 @@ while i <= 5 and j > 0:
         print(i*j,end= " ")         #3 6 9
     print()"""
 
+
+
 """class Car:
     def __init__(selft,color,model):
         self.color = color
@@ -99,6 +101,9 @@ while i <= 5 and j > 0:
 
     def start(self):
         print("Car Started")"""
+
+
+
 
 """class Dog:
     def __init__ (self):
@@ -119,3 +124,47 @@ if __name__ == "__main__":
     print("My Dog Name is : ",myDog.Bark)
     myDog.running()
     myDog.stoped()"""
+
+
+
+
+"""class Stack:
+    def __init__(self):
+        self.arr = [0]*5
+        self.top = -1
+
+    def push(self,x):
+        if self.top == 4:
+            print("Stack Overflow")
+            return 
+        self.top += 1
+        self.arr[self.top] = x
+
+    def pop(self):
+        if self.top == -1:
+            print("Stack Underflow")
+            return 
+        self.top -= 1
+
+    def display(self):
+        for i in range(self.top, -1, -1):
+            print(self.arr[i], end =" ")
+        print()
+
+if __name__ == "__main__":
+    s =Stack()
+
+    s.push(10)
+    s.push(20)
+    s.push(30)
+    s.push(40)
+    s.push(50)
+
+    print("Stack elements: ", end = "")
+    s.display()
+
+    s.pop()
+    s.pop()
+
+    print("After pop: ", end = "")
+    s.display()"""
