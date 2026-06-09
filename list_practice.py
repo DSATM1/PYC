@@ -86,3 +86,8 @@ while i <= 5 and j > 0:
     print("i = ", i , " j = ",j)
     i += 1
     j -= 1"""
+
+"""for i in range(1,4):             #1 2 3
+    for j in range(1,4):            #2 4 6
+        print(i*j,end= " ")         #3 6 9
+    print()"""
