@@ -48,4 +48,13 @@ match day:
     case 7:
         print("Sunday")"""
         
-        
+"""x = 10
+y = 5
+
+match x + y:
+    case 15:
+        print("Result is 15.")
+    case 20:
+        print("Result is 20.")
+    case _:
+        print("No match found.")"""
