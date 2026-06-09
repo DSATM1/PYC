@@ -75,3 +75,7 @@ print("x is positive" if x > 0 else "x is negative")"""
 
 """x = -0
 print("x is positive" if x > 0 else ("x is negative" if  x < 0  else "x is zero" )) """
+
+"""n = [19,23,34,42,51]
+for num in n:  #foreach loop
+    print(num)"""
