@@ -68,3 +68,7 @@ match grade:
         print("Good!")
     case _:
         print("Not specified.")"""
+
+
+x = -23
+print("x is positive" if x > 0 else "x is negative")
