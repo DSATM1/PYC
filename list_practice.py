@@ -79,3 +79,10 @@ print("x is positive" if x > 0 else ("x is negative" if  x < 0  else "x is zero"
 """n = [19,23,34,42,51]
 for num in n:  #foreach loop
     print(num)"""
+
+
+"""i,j=1,10
+while i <= 5 and j > 0:
+    print("i = ", i , " j = ",j)
+    i += 1
+    j -= 1"""
