@@ -22,11 +22,30 @@ lst = [1, 2, 2, 3, 4, 4, 5]
 result = remove_duplicates(lst)
 print(result)"""
 
-age,name,city = input("Enter your age, name, city:").strip().split()
+"""age,name,city = input("Enter your age, name, city:").strip().split()
 age =int(age)
 name = name
 city = city
 
 print("Your age:", age)
 print("Your city:", city)
-print("Your name:", name)
+print("Your name:", name)"""
+
+"""day = 3
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")"""
+        
+        
