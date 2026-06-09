@@ -168,3 +168,12 @@ if __name__ == "__main__":
 
     print("After pop: ", end = "")
     s.display()"""
+
+"""con = True
+i = 0
+while con:
+    if i == 10:
+        break
+    print("Con is True",i)
+    i += 1
+print("Ok")"""
