@@ -99,3 +99,23 @@ while i <= 5 and j > 0:
 
     def start(self):
         print("Car Started")"""
+
+"""class Dog:
+    def __init__ (self):
+        self.Bark = ""
+        self.Run = ""
+
+    def running(self):
+        print(f"{self.Run} is Running")
+
+    def stoped(self):
+        print(f"{self.Run} is Stopped")
+
+if __name__ == "__main__":
+    myDog = Dog()
+    myDog.Bark = "Pug " 
+    myDog.Run ="Pug"
+
+    print("My Dog Name is : ",myDog.Bark)
+    myDog.running()
+    myDog.stoped()"""
