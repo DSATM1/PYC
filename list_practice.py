@@ -21,3 +21,12 @@ print(odds)"""
 lst = [1, 2, 2, 3, 4, 4, 5]
 result = remove_duplicates(lst)
 print(result)"""
+
+age,name,city = input("Enter your age, name, city:").strip().split()
+age =int(age)
+name = name
+city = city
+
+print("Your age:", age)
+print("Your city:", city)
+print("Your name:", name)
