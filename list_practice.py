@@ -91,3 +91,11 @@ while i <= 5 and j > 0:
     for j in range(1,4):            #2 4 6
         print(i*j,end= " ")         #3 6 9
     print()"""
+
+"""class Car:
+    def __init__(selft,color,model):
+        self.color = color
+        self.model = model
+
+    def start(self):
+        print("Car Started")"""
