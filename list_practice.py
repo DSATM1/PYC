@@ -58,3 +58,13 @@ match x + y:
         print("Result is 20.")
     case _:
         print("No match found.")"""
+
+"""grade = 'A'
+
+match grade:
+    case '0':
+        print("Excellent!")
+    case 'B':
+        print("Good!")
+    case _:
+        print("Not specified.")"""
