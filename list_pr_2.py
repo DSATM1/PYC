@@ -26,7 +26,7 @@ while i >= 0:
 
 print(reverse_list)"""
 
-def palindrome(pal):
+"""def palindrome(pal):
     return pal == pal[::-1]
 res = palindrome("madaM")
-print(res)
+print(res)"""
