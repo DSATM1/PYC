@@ -30,3 +30,4 @@ print(reverse_list)"""
     return pal == pal[::-1]
 res = palindrome("madaM")
 print(res)"""
+
