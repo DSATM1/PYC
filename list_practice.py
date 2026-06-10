@@ -95,7 +95,7 @@ while i <= 5 and j > 0:
 
 
 """class Car:
-    def __init__(selft,color,model):
+    def __init__(self,color,model):
         self.color = color
         self.model = model
 
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
 
 
-"""class Stack:
+class Stack:
     def __init__(self):
         self.arr = [0]*5
         self.top = -1
@@ -144,7 +144,9 @@ if __name__ == "__main__":
         if self.top == -1:
             print("Stack Underflow")
             return 
+        popped_val = self.arr[self.top]
         self.top -= 1
+        return popped_val
 
     def display(self):
         for i in range(self.top, -1, -1):
@@ -167,7 +169,7 @@ if __name__ == "__main__":
     s.pop()
 
     print("After pop: ", end = "")
-    s.display()"""
+    s.display()
 
 
 
