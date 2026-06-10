@@ -46,3 +46,7 @@ while is_fail:
 print("Stop Loop Ended")"""
 
 
+"""i = 1
+while i <= 5:
+   print(i * " SP ")
+   i += 1"""
