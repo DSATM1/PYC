@@ -3,7 +3,7 @@
 """reverse_list([1, 2, 3, 4, 5]) → [5, 4, 3, 2, 1]
    reverse_list(["a", "b", "c"]) → ["c", "b", "a"]"""
 
-"""def reverse_list(lst): #type:ignore
+def reverse_list(lst): #type:ignore
    res = []
    i = len(lst) - 1  #type:ignore
    while i>= 0:
@@ -11,7 +11,7 @@
       i = i - 1
    return res #type:ignore
 print(reverse_list([1, 2, 3, 4, 5])) #type:ignore
-print(reverse_list(["a","b","c","d","e"])) #type:ignore"""
+print(reverse_list(["a","b","c","d","e"])) #type:ignore
 
 
 """lst = [1, 2, 3, 4, 5]
@@ -30,4 +30,13 @@ print(reverse_list)"""
     return pal == pal[::-1]
 res = palindrome("madaM")
 print(res)"""
+
+
+
+"""is_fail = True
+i = 1
+while is_fail and i <= 10:
+   print(f"Try {i}")
+   i += 1
+print()"""
 
