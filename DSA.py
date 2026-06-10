@@ -1,11 +1,11 @@
-# --- DSA Logic Building Practice ---
+"""# --- DSA Logic Building Practice ---
 
 def find_second_largest(arr):
     """
-    1. Find the Second Largest Element
-    Theory: Single pass approach to dynamically track largest and second largest.
-    Time Complexity: O(N) | Space Complexity: O(1)
-    """
+    # 1. Find the Second Largest Element
+    # Theory: Single pass approach to dynamically track largest and second largest.
+    # Time Complexity: O(N) | Space Complexity: O(1)
+"""
     if len(arr) < 2:
         return None
     largest = second = float('-inf')
@@ -19,10 +19,10 @@ def find_second_largest(arr):
 
 def move_zeros(arr):
     """
-    2. Move Zeros to End
-    Theory: Two-pointer technique to swap non-zeros to the front in-place.
-    Time Complexity: O(N) | Space Complexity: O(1)
-    """
+    # 2. Move Zeros to End
+    # Theory: Two-pointer technique to swap non-zeros to the front in-place.
+    # Time Complexity: O(N) | Space Complexity: O(1)
+"""
     non_zero_idx = 0
     for i in range(len(arr)):
         if arr[i] != 0:
@@ -32,11 +32,11 @@ def move_zeros(arr):
 
 def two_sum(arr, target):
     """
-    3. Two Sum
-    Theory: Uses a dictionary (Hash Map) to store seen elements and their indices for instant lookups.
-    Time Complexity: O(N) - Loop runs once, and dictionary checks are O(1) average.
-    Space Complexity: O(N) - Worst case scenario stores every element in the dictionary.
-    """
+    # 3. Two Sum
+    # Theory: Uses a dictionary (Hash Map) to store seen elements and their indices for instant lookups.
+    # Time Complexity: O(N) - Loop runs once, and dictionary checks are O(1) average.
+    # Space Complexity: O(N) - Worst case scenario stores every element in the dictionary.
+"""
     seen = {}
     for i, num in enumerate(arr):
         diff = target - num
@@ -47,19 +47,19 @@ def two_sum(arr, target):
 
 def binary_search(arr, target):
     """
-    4. Binary Search
-    Theory: Efficiently finds the index of a target in a SORTED array by halving the search space.
-    Time Complexity: O(log N) | Space Complexity: O(1)
-    How the logic works:
-    1. Pointers: Establish 'left' (start) and 'right' (end) pointers.
-    2. Looping Condition: Continue as long as left <= right.
-    3. Finding Midpoint: Calculate mid = (left + right) // 2.
-    4. Checking Matches:
-       - If arr[mid] == target, return mid.
-       - If arr[mid] < target, target is in the right half (left = mid + 1).
-       - If arr[mid] > target, target is in the left half (right = mid - 1).
-    5. Not Found: Return -1 if the loop finishes without finding the target.
-    """
+    # 4. Binary Search
+    # Theory: Efficiently finds the index of a target in a SORTED array by halving the search space.
+    # Time Complexity: O(log N) | Space Complexity: O(1)
+    # How the logic works:
+    # 1. Pointers: Establish 'left' (start) and 'right' (end) pointers.
+    # 2. Looping Condition: Continue as long as left <= right.
+    # 3. Finding Midpoint: Calculate mid = (left + right) // 2.
+    # 4. Checking Matches:
+    #    - If arr[mid] == target, return mid.
+    #    - If arr[mid] < target, target is in the right half (left = mid + 1).
+    #    - If arr[mid] > target, target is in the left half (right = mid - 1).
+    # 5. Not Found: Return -1 if the loop finishes without finding the target.
+"""
     left, right = 0, len(arr) - 1
     while left <= right:
         mid = (left + right) // 2
@@ -72,11 +72,11 @@ def binary_search(arr, target):
     return -1
 
 def binary_search_recursive(arr, target, left, right):
-    """
-    5. Recursive Binary Search
-    Theory: Achieves O(log N) time by calling itself with updated boundaries.
-    Time Complexity: O(log N) | Space Complexity: O(log N) - due to call stack memory.
-    """
+    # """
+    # 5. Recursive Binary Search
+    # Theory: Achieves O(log N) time by calling itself with updated boundaries.
+    # Time Complexity: O(log N) | Space Complexity: O(log N) - due to call stack memory.
+"""
     if left > right:
         return -1
         
@@ -124,3 +124,4 @@ if __name__ == "__main__":
     print(f"   Standard: {binary_search_recursive(arr5, 7, 0, len(arr5) - 1)}")
     print(f"   Not found: {binary_search_recursive(arr5, 4, 0, len(arr5) - 1)}") # Edge case: Target missing
     print(f"   Empty: {binary_search_recursive([], 5, 0, -1)}") # Edge case: Empty list
+"""
