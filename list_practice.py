@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
 
 
-class Stack:
+"""class Stack:
     def __init__(self):
         self.arr = [0]*5
         self.top = -1
@@ -169,7 +169,7 @@ if __name__ == "__main__":
     s.pop()
 
     print("After pop: ", end = "")
-    s.display()
+    s.display()"""
 
 
 
