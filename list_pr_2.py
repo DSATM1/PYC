@@ -120,3 +120,8 @@ student = {}
 for i in range(len(name)):
    student[name[i]] = marks[i]
 print(student)"""
+
+
+"""names = ["Manu","Gudde","Sudeepa","Girish"]
+d = {name:len(name) for name in names}
+print(d)"""
