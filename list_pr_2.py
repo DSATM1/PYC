@@ -135,3 +135,14 @@ print(d)"""
 #lc = {key:value for key,value in city.items() if value >=60}
 lc = {uru:pop for uru,pop in city.items() if pop >=60}  
 print(lc)"""
+
+
+"""city = {
+    "Bangalore": 100,
+    "Tumkur": 77,
+    "Sira":59,
+    "Mysore":34
+}
+#lc = {key:value for key,value in city.items() if value >=60}
+lc = {town:num for town,num in city.items() if num >=50}  
+print(lc)"""
