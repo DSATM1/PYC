@@ -125,3 +125,13 @@ print(student)"""
 """names = ["Manu","Gudde","Sudeepa","Girish"]
 d = {name:len(name) for name in names}
 print(d)"""
+
+"""city = {
+    "Bangalore": 100,
+    "Tumkur": 77,
+    "Sira":59,
+    "Mysore":34
+}
+#lc = {key:value for key,value in city.items() if value >=60}
+lc = {uru:pop for uru,pop in city.items() if pop >=60}  
+print(lc)"""
