@@ -93,3 +93,12 @@ for i in l:
    dl.append(i*2)
    print(dl)"""
    
+
+"""stud_info = {
+    "name":"Suraj",
+    "age":24,
+    "marks":456,
+    "city":"Sira"
+}
+for std, info in stud_info.items():
+    print(f"{std} = {info}")"""
