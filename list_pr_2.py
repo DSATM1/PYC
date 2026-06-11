@@ -64,3 +64,14 @@ while i <= 5:
 """for i in range(6):
    print(f"S P {i} " * i)"""
 
+
+"""#pwd = "1234"
+trail = 1
+while trail<=3:
+    pin = input(f"Trail {trail} Enter Pin:").strip()
+    trail += 1
+    if pin == "1234":
+        print("Correct")
+        break
+    else:
+        print("Wrong!")"""  
