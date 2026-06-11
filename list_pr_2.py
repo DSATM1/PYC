@@ -86,3 +86,10 @@ for index, char in enumerate(c):
 """for i in range(2,11):
     for j in range(1,11):
         print(f"{i} X {j} = {i*j}")"""
+
+"""l = [23,45,32,21,90]
+dl = []
+for i in l:
+   dl.append(i*2)
+   print(dl)"""
+   
