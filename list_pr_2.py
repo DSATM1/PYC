@@ -102,3 +102,12 @@ for i in l:
 }
 for std, info in stud_info.items():
     print(f"{std} = {info}")"""
+
+"""name = ["Suraj","vikas","Manu","Dinu"]
+marks = [30,40,50,60]
+
+student ={}
+
+for index,var in enumerate(name):
+    student[var] = marks[index]
+print(student)"""
