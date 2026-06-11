@@ -146,3 +146,6 @@ print(lc)"""
 #lc = {key:value for key,value in city.items() if value >=60}
 lc = {town:num for town,num in city.items() if num >=50}  
 print(lc)"""
+
+"""n = input("Enter list of names").split()
+print(n)"""
