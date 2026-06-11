@@ -61,5 +61,6 @@ while i <= 5:
    print("")
    i += 1"""
       
-
+"""for i in range(6):
+   print(f"S P {i} " * i)"""
 
