@@ -31,3 +31,47 @@ print(reverse_list)"""
 res = palindrome("madaM")
 print(res)"""
 
+
+
+"""is_fail = True
+i = 0
+while is_fail:
+   if i%2 != 0:
+      i += 1
+      continue
+   print(f"Try {i}")
+   i += 1
+   if i>=10:
+      break
+print("Stop Loop Ended")"""
+
+
+"""i = 1
+while i <= 5:
+   print(i * " SP ")
+   i += 1"""
+
+
+"""i = 0
+while i <= 5:
+   x = 1
+   while x<i:
+      print(f" S P {i} ",end = "")
+      x = x+1
+   print("")
+   i += 1"""
+      
+"""for i in range(6):
+   print(f"S P {i} " * i)"""
+
+
+"""#pwd = "1234"
+trail = 1
+while trail<=3:
+    pin = input(f"Trail {trail} Enter Pin:").strip()
+    trail += 1
+    if pin == "1234":
+        print("Correct")
+        break
+    else:
+        print("Wrong!")"""  
