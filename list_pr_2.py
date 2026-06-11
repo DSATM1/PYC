@@ -111,3 +111,12 @@ student ={}
 for index,var in enumerate(name):
     student[var] = marks[index]
 print(student)"""
+
+
+"""name = ["Suraj","vikas","Manu","Dinu"]
+marks = [30,40,50,60]
+student = {}
+
+for i in range(len(name)):
+   student[name[i]] = marks[i]
+print(student)"""
