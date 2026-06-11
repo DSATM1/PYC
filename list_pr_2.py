@@ -31,3 +31,83 @@ print(reverse_list)"""
 res = palindrome("madaM")
 print(res)"""
 
+
+
+"""is_fail = True
+i = 0
+while is_fail:
+   if i%2 != 0:
+      i += 1
+      continue
+   print(f"Try {i}")
+   i += 1
+   if i>=10:
+      break
+print("Stop Loop Ended")"""
+
+
+"""i = 1
+while i <= 5:
+   print(i * " SP ")
+   i += 1"""
+
+
+"""i = 0
+while i <= 5:
+   x = 1
+   while x<i:
+      print(f" S P {i} ",end = "")
+      x = x+1
+   print("")
+   i += 1"""
+      
+"""for i in range(6):
+   print(f"S P {i} " * i)"""
+
+
+"""#pwd = "1234"
+trail = 1
+while trail<=3:
+    pin = input(f"Trail {trail} Enter Pin:").strip()
+    trail += 1
+    if pin == "1234":
+        print("Correct")
+        break
+    else:
+        print("Wrong!")"""  
+
+"""for i in range(2,12,2):
+    print(i,end = ",")"""
+
+"""c = "suraj"
+for index, char in enumerate(c):
+    print(f"{char*index}")"""
+
+"""for i in range(2,11):
+    for j in range(1,11):
+        print(f"{i} X {j} = {i*j}")"""
+
+"""l = [23,45,32,21,90]
+dl = []
+for i in l:
+   dl.append(i*2)
+   print(dl)"""
+   
+
+"""stud_info = {
+    "name":"Suraj",
+    "age":24,
+    "marks":456,
+    "city":"Sira"
+}
+for std, info in stud_info.items():
+    print(f"{std} = {info}")"""
+
+"""name = ["Suraj","vikas","Manu","Dinu"]
+marks = [30,40,50,60]
+
+student ={}
+
+for index,var in enumerate(name):
+    student[var] = marks[index]
+print(student)"""
