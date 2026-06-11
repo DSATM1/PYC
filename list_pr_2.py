@@ -75,3 +75,6 @@ while trail<=3:
         break
     else:
         print("Wrong!")"""  
+
+"""for i in range(2,12,2):
+    print(i,end = ",")"""
