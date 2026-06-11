@@ -82,3 +82,7 @@ while trail<=3:
 """c = "suraj"
 for index, char in enumerate(c):
     print(f"{char*index}")"""
+
+"""for i in range(2,11):
+    for j in range(1,11):
+        print(f"{i} X {j} = {i*j}")"""
