@@ -50,3 +50,16 @@ print("Stop Loop Ended")"""
 while i <= 5:
    print(i * " SP ")
    i += 1"""
+
+
+"""i = 0
+while i <= 5:
+   x = 1
+   while x<i:
+      print(f" S P {i} ",end = "")
+      x = x+1
+   print("")
+   i += 1"""
+      
+
+
