@@ -161,3 +161,8 @@ print(l)"""
 """#--------This is String-----------------
 l = [num for num in input("enter a list of names in the family : ").split()]
 print(l)"""
+
+i = 1
+while i<=5:
+    print(i,end = " ")
+    i+=1
