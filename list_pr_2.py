@@ -149,3 +149,15 @@ print(lc)"""
 
 """n = input("Enter list of names").split()
 print(n)"""
+
+
+
+"""#--------This is for Integers----------------
+l = [int(num) for num in input("enter a list integers : ").split()]
+print(l)"""
+
+
+
+"""#--------This is String-----------------
+l = [num for num in input("enter a list of names in the family : ").split()]
+print(l)"""
